@@ -1,6 +1,10 @@
 import webbrowser
 import time
 
-time.sleep(3)
+total_breaks = 5
+count = 1
 
-webbrowser.open("https://www.facebook.com");
+while(count<=total_breaks):
+  time.sleep(3*60*60)
+  webbrowser.open("https://www.youtube.com")
+  count = count+1
